@@ -1,0 +1,62 @@
+﻿已經開始建置於 2014/8/26 下午 02:02:45。
+節點 2 (build 目標) 上的專案 "\\psf\Home\Desktop\PPETC\PC_DEMO\source_code\ARF24_DEMO\ARF24_DEMO.vcxproj"。
+InitializeBuildStatus:
+  正在變更時間戳記 "Release\ARF24_DEMO.unsuccessfulbuild"。
+ClCompile:
+  所有輸出都是最新的。
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\MySQL\Connector C++ 1.1.3\include" /I"C:\Program Files\MySQL\Connector C++ 1.1.3\include\cppconn" /I"C:\Program Files\boost_1_55_0" /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D CPPCONN_PUBLIC_FUC= /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ARF24_DEMO.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ARF24_DEMODlg.cpp
+  ARF24_DEMODlg.cpp
+c:\program files\mysql\connector c++ 1.1.3\include\cppconn\sqlstring.h(38): warning C4251: 'sql::SQLString::realStr' : class 'std::basic_string<_Elem,_Traits,_Ax>' 必須有 DLL 介面，才能被為 class 'sql::SQLString' 的用戶端使用
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Ax=std::allocator<char>
+          ]
+C:\Program Files\MySQL\Connector C++ 1.1.3\include\mysql_connection.h(165): warning C4251: 'sql::mysql::MySQL_Connection::proxy' : class 'boost::shared_ptr<T>' 必須有 DLL 介面，才能被為 class 'sql::mysql::MySQL_Connection' 的用戶端使用
+          with
+          [
+              T=sql::mysql::NativeAPI::NativeConnectionWrapper
+          ]
+C:\Program Files\MySQL\Connector C++ 1.1.3\include\mysql_connection.h(169): warning C4251: 'sql::mysql::MySQL_Connection::service' : class 'boost::scoped_ptr<T>' 必須有 DLL 介面，才能被為 class 'sql::mysql::MySQL_Connection' 的用戶端使用
+          with
+          [
+              T=sql::mysql::MySQL_Statement
+          ]
+C:\Program Files\MySQL\Connector C++ 1.1.3\include\cppconn/exception.h(61): warning C4251: 'sql::SQLException::sql_state' : class 'std::basic_string<_Elem,_Traits,_Ax>' 必須有 DLL 介面，才能被為 class 'sql::SQLException' 的用戶端使用
+          with
+          [
+              _Elem=char,
+              _Traits=std::char_traits<char>,
+              _Ax=std::allocator<char>
+          ]
+ARF24_DEMODlg.cpp(219): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : 請參閱 'wcstombs' 的宣告
+ARF24_DEMODlg.cpp(235): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : 請參閱 'wcstombs' 的宣告
+ARF24_DEMODlg.cpp(302): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : 請參閱 'wcstombs' 的宣告
+ARF24_DEMODlg.cpp(1000): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : 請參閱 'wcstombs' 的宣告
+ResourceCompile:
+  所有輸出都是最新的。
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\psf\Home\Desktop\PPETC\PC_DEMO\source_code\Release\ARF24_DEMO.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\MySQL\Connector C++ 1.1.3\lib\opt" "mysqlcppconn-static.lib" mysqlcppconn.lib libmysql.lib /MANIFEST /ManifestFile:"Release\ARF24_DEMO.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\psf\Home\Desktop\PPETC\PC_DEMO\source_code\Release\ARF24_DEMO.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\psf\Home\Desktop\PPETC\PC_DEMO\source_code\Release\ARF24_DEMO.lib" /MACHINE:X86 Release\ARF24_DEMO.res
+  Release\ARF24_DEMO.obj
+  Release\ARF24_DEMODlg.obj
+  Release\SetRouter.obj
+  Release\SetTag.obj
+  Release\stdafx.obj
+  正在產生程式碼
+  已完成程式碼產生
+  ARF24_DEMO.vcxproj -> \\psf\Home\Desktop\PPETC\PC_DEMO\source_code\Release\ARF24_DEMO.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\psf\Home\Desktop\PPETC\PC_DEMO\source_code\Release\ARF24_DEMO.exe;#1" /manifest Release\ARF24_DEMO.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+FinalizeBuildStatus:
+  正在刪除檔案 "Release\ARF24_DEMO.unsuccessfulbuild"。
+  正在變更時間戳記 "Release\ARF24_DEMO.lastbuildstate"。
+專案 "\\psf\Home\Desktop\PPETC\PC_DEMO\source_code\ARF24_DEMO\ARF24_DEMO.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:09.45
